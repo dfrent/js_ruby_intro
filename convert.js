@@ -61,15 +61,70 @@ puts "I have #{apples} apples."
 
 // js code
 
-for (var i = 0; i < 10; i++) {
-  console.log('doing things the same times over and over and over and over aND OVER');
-};
+// for (var i = 0; i < 10; i++) {
+//   console.log('doing things the same times over and over and over and over aND OVER');
+// };
+
+// ruby code
+// base = 5
+// 20.times do |num|
+//   puts num + base
+// end
+
+// js code
+// var base = 5
+// for ( var num = 0; num < 20; num++){
+//   console.log(num + base);
+// };
 
 // ruby code
 
+// total = 0
+// 100.times do |num|
+//   total += num
+// end
+// puts total
+
+// js code
+// var total = 0
+// for ( var num = 0; num < 100; num++) {
+//   total += num;
+// }
+// console.log(total);
+
+// ruby code
+// (3..15).each do |height|
+//   if height > 9
+//     puts "You can get on the rollercoaster!"
+//   else
+//     puts "You are too short to ride this rollercoaster."
+//   end
+// end
+
+// js code
+// for ( var height = 3; height < 15; height++){
+//   if (height > 9) {
+//    console.log('you can get on the rollercoaster');
+//   } else {
+//     console.log("youre too short");
+//   }
+// }
 
 
+// ruby code
+// containers = ['purse', 'wallet', 'backback']
+// containers.each do |container|
+//   puts container
+// end
 
 
+// js code
+var containers = ['purse', 'wallet', 'backback']
 
-// js code 
+// for ( containers = 0; containers < containers.length; containers++ ) {
+//   console.log(containers[containers]);
+// }
+
+for ( var i = 0; i < containers.length; i++ ) {
+  console.log(containers[i]);
+}
