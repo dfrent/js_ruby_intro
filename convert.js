@@ -119,12 +119,43 @@ puts "I have #{apples} apples."
 
 
 // js code
-var containers = ['purse', 'wallet', 'backback']
+// var containers = ['purse', 'wallet', 'backback']
 
 // for ( containers = 0; containers < containers.length; containers++ ) {
 //   console.log(containers[containers]);
 // }
 
-for ( var i = 0; i < containers.length; i++ ) {
-  console.log(containers[i]);
+// for ( var i = 0; i < containers.length; i++ ) {
+//   console.log(containers[i]);
+// }
+
+// ruby code
+
+// def hello_world
+//   puts "Hello world!"
+// end
+//
+// hello_world
+
+// js code
+ function helloWorld() {
+  console.log('hello world');
 }
+
+helloWorld()
+
+
+// ruby code
+// def add(first_num, second_num)
+//   first_num + second_num
+// end
+//
+// amount = add(5, 7)
+// puts amount
+
+// js code
+function sumOFNums(first, second) {
+    console.log(first + second);
+}
+
+sumOFNums(5, 7)
